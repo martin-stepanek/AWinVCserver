@@ -1,3 +1,24 @@
+# AWinWC
+Project Ibiza
+
+Set up an online server to capture data from iPhone and Apple Watch using the SensorLog app
+
+The Python code contains code to access the different servers listed below
+
+### Useful links:
+- Free JSON Server (option 1 - the POST method doesn't seem to work): https://my-json-server.typicode.com/
+- How to set it up: https://medium.com/@royanimesh2211/create-a-free-fake-rest-api-with-json-server-running-on-the-internet-30a627c7c20d
+
+- Free JSON Server (option 2 - works well but requires token): https://app.fakejson.com/member
+
+- Actually used approach:
+-- Set up server locally: https://github.com/typicode/json-server
+-- Host it online: https://github.com/jesperorb/json-server-heroku
+-- Heroku platform: https://dashboard.heroku.com/apps/aw-in-vc/deploy/github (uses automated upload from Github)
+- Original ReadMe on how to set up the server below.
+
+
+
 # Deploy `json-server` to `{{ free hosting site }}`
 
 > Instructions how to deploy the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
